@@ -6,11 +6,11 @@ import ListPage from "./components/ListPage";
 import React, { useState } from "react";
 
 export default function App() {
-  const [list, setList] = useState([])
+  const [list, setList] = useState([]);
 
-funtion handleInput(input)={
-  setList(input)
-};
+  function handleInput(input) {
+    setList(input);
+  }
 
   return (
     <div className="container">
